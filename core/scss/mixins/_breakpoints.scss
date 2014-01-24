@@ -1,0 +1,20 @@
+// Inline breakpoints
+
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == tablet {
+    @media all and (min-width: 768px) and (max-width: 1024px) { @content; }
+  }
+  @else if $breakpoint == tablet-and-desktop {
+    @media all and (min-width: 768px) { @content; }
+  }
+  @else if $breakpoint == desktop {
+    @media all and (min-width: 1025px) { @content; }    
+  }
+}
+
+// Mobile first support for ie9 and older
+// Use with modernizr feature detection (eg .no-csscolumns) or ie conditional statements
+@mixin breakpoint-ie($breakpoint) {
+  @include breakpoint($breakpoint) { @content; }
+  .ie & { @content; }
+}

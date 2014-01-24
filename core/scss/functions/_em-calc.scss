@@ -1,0 +1,13 @@
+// Calculate pixels to ems
+
+$em-base: 14px;
+
+@function em($pxval, $base: $em-base) {
+  @if not unitless($pxval) {
+      $pxval: strip-units($pxval);
+  }
+  @if not unitless($base) {
+      $base: strip-units($base);
+  }
+  @return ($pxval / $base) * 1em;
+}
