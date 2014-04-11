@@ -13,51 +13,47 @@ Version 1.0
 
 ### Example file structure
 
-- **test bullets**
-    - test bullet indented 1
-        - test indented 2
-
 FE mixin library
 - **core** (current supported code)
- - **sass**
-   - **mixins**
-     - _animation.scss
-     - _background.scss
-     - _border-radius.scss
-   - **functions**
-     - _compact.scss
-     - _flex-grid.scss
-     - _golden-ratio.scss
-   - **addons**
-     - _button.scss
-     - _clearfix.scss
-     - _hide-text.scss
- - **less**
-   - **mixins**
-     - _animation.less
-     - _background.less
-     - _border-radius.less
-   - **functions**
-     - _compact.less
-     - _flex-grid.less
-     - _golden-ratio.less
-   - **addons**
-     - _button.less
-     - _clearfix.less
-     - _hide-text.less
+    - **sass**
+        - **mixins**
+            - _animation.scss
+            - _background.scss
+            - _border-radius.scss
+        - **functions**
+            - _compact.scss
+            - _flex-grid.scss
+            - _golden-ratio.scss
+        - **addons**
+            - _button.scss
+            - _clearfix.scss
+            - _hide-text.scss
+    - **less**
+        - **mixins**
+            - _animation.less
+            - _background.less
+            - _border-radius.less
+        - **functions**
+            - _compact.less
+            - _flex-grid.less
+            - _golden-ratio.less
+        - **addons**
+            - _button.less
+            - _clearfix.less
+            - _hide-text.less
 - **beta** (future not currently supported code but will be)
- - **sass**
-   - **mixins**
-   - **functions**
-     - _baseline.scss
-     - _grid.scss (based on W3C grid module)
-   - **addons**
- - **less**
-   - **mixins**
-   - **functions**
-     - _baseline.less
-     - _grid.less (based on W3C grid module)
-   - **addons**
+    - **sass**
+        - **mixins**
+        - **functions**
+            - _baseline.scss
+            - _grid.scss (based on W3C grid module)
+        - **addons**
+    - **less**
+        - **mixins**
+        - **functions**
+            - _baseline.less
+            - _grid.less (based on W3C grid module)
+        - **addons**
 
 ### Example Mixins
 _animation
