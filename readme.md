@@ -14,6 +14,7 @@ Version 1.0
 ### Example file structure
 
 FE mixin library
+
 - **core** (current supported code)
     - **sass**
         - **mixins**
@@ -41,7 +42,7 @@ FE mixin library
             - _button.less
             - _clearfix.less
             - _hide-text.less
-            
+
 - **beta** (future not currently supported code but will be)
     - **sass**
         - **mixins**
