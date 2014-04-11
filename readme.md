@@ -13,6 +13,10 @@ Version 1.0
 
 ### Example file structure
 
+- test bullets
+    - test bullet indented 1
+        - test indented 2
+
 FE mixin library
 - **core** (current supported code)
  - **sass**
