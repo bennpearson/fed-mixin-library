@@ -41,6 +41,7 @@ FE mixin library
             - _button.less
             - _clearfix.less
             - _hide-text.less
+            
 - **beta** (future not currently supported code but will be)
     - **sass**
         - **mixins**
