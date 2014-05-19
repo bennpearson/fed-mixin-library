@@ -4,7 +4,7 @@ This will hopefully be a more flexible framework that everyone can use. Keeping 
 
 ## Made by
 
-[Benn Pearson](twitter.com/bennpearson) & [Pete Naish](twitter.com/tweet_naish)
+[Benn Pearson](http://twitter.com/bennpearson) & [Pete Naish](http://twitter.com/tweet_naish)
 
 
 ## Roadmap
