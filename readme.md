@@ -44,13 +44,7 @@ Sass is shown below, but the same exists for Less.
     |   |
     |
 
-
-- **functions**
-    - _compact.scss
-    - _golden-ratio.scss
-    - _(grid).scss
-
-### Example Mixins
+### Mixins
 animation
 
 background
@@ -112,7 +106,7 @@ shade
 
 tint
 
-### Example Addons
+### Example helpers
 button
 
 clearfix
