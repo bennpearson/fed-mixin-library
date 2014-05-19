@@ -1,19 +1,12 @@
 # Simple mixin library for sass and less
-
-This is a simple set of tools that you can include in your projects if you wish. It is not a framework; you can simply pick and choose what you want to use. You are then free to add any additional tools your project requires, and we can add them here if they're likely to be useful in other projects too.
+This is a simple set of tools that you can include in your projects if you wish. It is not a framework; you can simply pick and choose what you want to use, and if you don't use them, you won't see them in your compiled CSS. You are then free to add any additional tools your project requires, and we can add them here if they're likely to be useful in other projects too.
 
 Keeping it a simple library for both Sass and Less will mean that we can maintain it more easily, and use it across all our CMSs while learning both Sass and Less.
 
 ## Made by
-
 [Benn Pearson](http://twitter.com/bennpearson) & [Pete Naish](http://twitter.com/tweet_naish)
 
-## Roadmap
-
-Version 1.0
-
-### Example folder structure
-
+### Folder structure
 Sass is shown below, but the same exists for Less.
 
     sass
@@ -55,95 +48,96 @@ Sass is shown below, but the same exists for Less.
 - **functions**
     - _compact.scss
     - _golden-ratio.scss
-    - _(baseline).scss
     - _(grid).scss
-- **addons**
-    - _button.scss
-
 
 ### Example Mixins
-_animation
+animation
 
-_background
+background
 
-_border-radius
+border-radius
 
-_appearance
+appearance
 
-_backface-visibility
+backface-visibility
 
-_border-image
+border-image
 
-_box-sizing
+box-sizing
 
-_columns
+columns
 
-_flex-box
+flex-box
 
-_font-face
+font-face
 
-_inline-block
+inline-block
 
-_hidpi
+hidpi
 
-_image-rendering
+image-rendering
 
-_keyframes
+keyframes
 
-_placeholder
+placeholder
 
-_perspective
+perspective
 
-_linear-gradient
+linear-gradient
 
-_radial-gradient
+radial-gradient
 
-_user-select
+user-select
 
-_transform
+transform
 
-_transition
+transition
 
 ### Example functions
-_compact
+compact
 
-_flex-grid
+flex-grid
 
-_golden-ratio
+golden-ratio
 
-_grid-width
+grid-width
 
-_linear-gradient
+linear-gradient
 
-_modular-scale
+modular-scale
 
-_radial-gradient
+radial-gradient
 
-_shade
+shade
 
-_tint
+tint
 
 ### Example Addons
-_button
+button
 
-_clearfix
+clearfix
 
-_hide-text
+hide-text
 
-_em
+em
 
-_position
+position
 
-_prefixer
+prefixer
 
-_retina-image
+retina-image
 
-_size
+size
 
-_triangle
+triangle
 
-_HTML5 Inputs
+HTML5 Inputs
 
-_font-family
+font-family
 
-_timing-functions
+timing-functions
+
+## To do
+
+- Add [Vertical Rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm/) mixin
+- Add partials to repo
