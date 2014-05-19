@@ -1,6 +1,6 @@
 # Simple mixin library for sass and less
 
-This is a simple set of tools that you can include in their FE projects if you wish. It is not a framework; you can simply pick and choose what you want to use. You are free to add any additional tools your project requires, and we can add them here if they're likely to be useful in other projects.
+This is a simple set of tools that you can include in your projects if you wish. It is not a framework; you can simply pick and choose what you want to use. You are then free to add any additional tools your project requires, and we can add them here if they're likely to be useful in other projects too.
 
 Keeping it a simple library for both Sass and Less will mean that we can maintain it more easily, and use it across all our CMSs while learning both Sass and Less.
 
@@ -12,9 +12,7 @@ Keeping it a simple library for both Sass and Less will mean that we can maintai
 
 Version 1.0
 
-### Example file structure
-
-FE mixin library
+### Example folder structure
 
 Sass is shown below, but the same exists for Less.
 
