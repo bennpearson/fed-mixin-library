@@ -1,11 +1,12 @@
 # Simple mixin library for sass and less
 
-This will hopefully be a more flexible framework that everyone can use. Keeping it a simple mixin library for both sass and less will mean that we can maintain it more easily and use it across all our CMSs while learning both sass and less.
+This is a simple set of tools that you can include in their FE projects if you wish. It is not a framework; you can simply pick and choose what you want to use. You are free to add any additional tools your project requires, and we can add them here if they're likely to be useful in other projects.
+
+Keeping it a simple library for both Sass and Less will mean that we can maintain it more easily, and use it across all our CMSs while learning both Sass and Less.
 
 ## Made by
 
 [Benn Pearson](http://twitter.com/bennpearson) & [Pete Naish](http://twitter.com/tweet_naish)
-
 
 ## Roadmap
 
