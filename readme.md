@@ -5,6 +5,7 @@ This will hopefully be a more flexible framework that everyone can use. Keeping 
 ## Made by
 
 [Benn Pearson](twitter.com/bennpearson)
+[Pete Naish](twitter.com/tweet_naish)
 
 
 ## Roadmap
@@ -15,47 +16,52 @@ Version 1.0
 
 FE mixin library
 
-- **core** (current supported code)
-    - **sass**
-        - **mixins**
-            - _animation.scss
-            - _background.scss
-            - _border-radius.scss
-        - **functions**
-            - _compact.scss
-            - _flex-grid.scss
-            - _golden-ratio.scss
-        - **addons**
-            - _button.scss
-            - _clearfix.scss
-            - _hide-text.scss
-    - **less**
-        - **mixins**
-            - _animation.less
-            - _background.less
-            - _border-radius.less
-        - **functions**
-            - _compact.less
-            - _flex-grid.less
-            - _golden-ratio.less
-        - **addons**
-            - _button.less
-            - _clearfix.less
-            - _hide-text.less
+Sass is shown below, but the same exists for Less.
 
-- **beta** (future not currently supported code but will be)
-    - **sass**
-        - **mixins**
-        - **functions**
-            - _baseline.scss
-            - _grid.scss (based on W3C grid module)
-        - **addons**
-    - **less**
-        - **mixins**
-        - **functions**
-            - _baseline.less
-            - _grid.less (based on W3C grid module)
-        - **addons**
+    sass
+    |
+    +-- tools
+    |   |
+    |   +-- functions // maths and calculations
+    |   |   |
+    |   |   +-- _all.scss
+    |   |   +-- _em-calc.scss
+    |   |   +-- _grid--flex.scss
+    |   |   +-- _percentage.scss
+    |   |   +-- _strip-units.scss
+    |   |
+    |   +-- mixins // prefixers etc
+    |   |   |
+    |   |   +-- _all.scss
+    |   |   +-- _animation.scss
+    |   |   +-- _background.scss
+    |   |   +-- _border-radius.scss
+    |   |   +-- _font-face.scss
+    |   |   +-- _media-query.scss
+    |   |   +-- _media-query--hi-dpi.scss
+    |   |   +-- _prefix.scss
+    |   |   +-- _transform.scss
+    |   |   +-- _transition.scss
+    |   |
+    |   +-- helpers // common tasks
+    |   |   |
+    |   |   +-- _all.scss
+    |   |   +-- _clearfix.scss
+    |   |   +-- _hide-text.scss
+    |   |   +-- _image-replacement.scss
+    |   |   +-- _retina-image.scss
+    |   |
+    |
+
+
+- **functions**
+    - _compact.scss
+    - _golden-ratio.scss
+    - _(baseline).scss
+    - _(grid).scss
+- **addons**
+    - _button.scss
+
 
 ### Example Mixins
 _animation
